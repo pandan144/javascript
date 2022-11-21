@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam important </title>
+</head>
+<body>
+    <script>
+        //Array copy
+        let a=[1,2,3,4,5];
+        let b=a.concat(a);
+        console.log(b);
+
+        //add && eve number
+        const eve=[5,4,9,14,96];
+        let add= eve.length;
+        for(let i=0;i<add;i++){
+            if(eve[i]% 2==0){
+                console.log(eve[i]);
+            }
+        }
+        console.log("add number");
+        const eve1=[5,4,9,14,96,11,21];
+        let add1= eve1.length;
+        for(let i=0;i<add1;i++){
+            if(eve1[i]% 2==1){
+                console.log(eve1[i]);
+            }
+        }
+        //fixedbus
+        for(i=1;i<=100;i++){
+            if(i%3==0 || i%5==0){
+            if(i%3==0 && i%5==0){
+                console.log("fixbuzz number"+i);
+            }
+            else if(i%3==0){
+                console.log("buzz number"+i);
+            }
+            else if(i%5==0){
+                 console.log("fix number"+i);
+            }
+            }
+            else{
+                console.log(i)
+            }
+        }
+        //empty array
+        var array=["a","r","u","l","t"];
+        array.splice(0,5);
+        console.log(array);
+
+        var a1=[1,2,3,4,5];
+         a1=[];
+        console.log(a1);
+
+        //decimal to integer
+        let d=prompt("enter the value");
+        if(d  % 1 !=0){
+            console.log("decimal number"+d);
+        }
+        else{
+            console.log("integer number"+d)
+        }
+    </script>
+</body>
+</html>
