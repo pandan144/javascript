@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam1</title>
+</head>
+<body>
+    <script>
+       // different == &=== 
+        let a = 10;
+         let b = 10;
+        console.log(a==b);
+        let a1 = 10;
+         let b1 = 10;
+        console.log(a1===b1);
+        //question 2
+        const c=[1,2,3,4,5,6,7,8,9,10];
+        for(let i=0; i<10;i++){
+            setTimeout(()=>console.log(b[i]),1000);
+        }
+        for(var i=0; i<10;i++){
+            setTimeout(()=>console.log(b[i]),1000);
+        }
+        //question 7
+            let n=3;
+            let n1=2;
+            let n3="7";
+            console.log(n+n1+n3);
+        //question 8
+            let array=["ak","pand","krish"];
+            let arra=array.pop();
+            console.log(arra);
+
+            let array1=["ak","pand","krish"];
+            let arra1=array1.shift();
+            console.log(arra1);
+        //keyword is used to print the text on the browser 
+            console.log("hi ak");
+            document.write("hi ak");
+
+        //question 5
+            let hero={
+                powerLevel:99,
+                getPoer(){
+                    return this.powerLevel;
+                }
+            }
+                let getPower = hero.getPower;
+            //question 10
+            if(10>20 &&20>10){
+                document.write(10);
+            }
+            else{
+                document.write(20);
+            }
+            if(10<20 && 50%5==10){
+                document.write(30);
+            }
+            if(10!==20||50/0==0){
+                document.write(40);
+            }
+
+            //question 11
+                let sum=35;
+                if (sum %10==0){
+                    console.log("a");
+                }
+                else if(sum%2===1){
+                    if (sum %5==0&&sum%2==0){
+                       console.log("b"); 
+                    }else if(sum %5==0){
+                        console.log("c");
+                    }
+                    else{
+                        console.log("d");
+                    }
+                }
+                else{
+                        console.log("e");
+                    }
+                    document.write("<br>");
+            //add && eve number
+            const eve=[5,4,9,14,96];
+            let add= eve.length;
+            for(let i=0;i<add;i++){
+                if(eve[i]% 2==0){
+                    console.log(eve[i]);
+                }
+            }
+            const eve1=[5,4,9,14,96];
+            let add1= eve1.length;
+            for(let i=0;i<add;i++){
+                if(eve1[i]% 2==1){
+                    console.log(eve1[i]);
+                }
+            }
+
+            //array copy 
+            const arr=[1,2,3,4,5];
+            let arr1= arr.length;
+            for(let i=0;i<arr;i++){
+                arr1.push(arr1[i])
+            }
+            console.log(arra);
+            //object array
+        let passengers=[
+            {
+            id:1,
+            passengername:"akpand",
+            isVegetarianorvegan:false,
+            connectedflights:2,
+            },
+
+            {
+            id:2,
+            passengername:"krish",
+            isVegetarianorvegan:true,
+            connectedflights:4,
+            },
+            
+            {
+            id:3,
+            passengername:"pand",
+            isVegetarianorvegan:true,
+            connectedflights:3,
+            },
+        
+            {
+            id:4,
+            passengername:"ak",
+            isVegetarianorvegan:false,
+            connectedflights:1,
+            }
+        ]
+        let names=[];
+        passengers.forEach((name)=>{
+            let newarray =name.passengername;
+            names.push(newarray);
+        })
+        console.log(names);
+        
+        </script>
+    </body>
+</html>
