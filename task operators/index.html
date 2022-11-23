@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators</title>
+</head>
+<body>
+    <script>
+        let a1=22,b1=3;
+         let c1=(a1/2)+(a1+b1)+(a1%11);
+         console.log(c1);
+
+        //sum1
+        let a=8,b=64,c=8,d=34,e=5;
+         let f=a+b/c-(d/e);
+        console.log(f);// ans 9.2
+        
+        
+        //sum 2
+        let g=8,h=64;
+        let i=(g/h)+(g/g)*(1/g)*g+g;
+        console.log(i);// sns9.125
+        
+
+        //sum 3
+        let num1=10,num2=50;
+        let num3=num1*9;
+        let num4=num3**3;
+        console.log(num4/num1);//2900
+
+
+        //post decrement--  , --pre decrement
+
+        var num6=6;
+        num6--;
+        console.log(num6);
+         
+        var num5=15;
+        // --num5;
+        console.log(--num5)
+
+        //num postincrement
+        var num7=20;
+        num7++;
+        console.log(num7);
+
+        var num8=10;
+        // ++num8;
+        console.log(++num8);
+
+        //sum7 compartion operator
+        //loose equalty operator ==,!=
+        //strict equalty operator ===,!==
+        //relational operator <,>,<=,>=
+        let per1=100;
+        let per2="100";
+        console.log(per1==per2);
+        console.log(per1===per2);
+        console.log(per1!=per2);
+        console.log(per1!==per2);
+
+        let user=13;
+        let pers=18;
+        if(pers<=user){
+            console.log("allow in person");
+        }
+        else{
+            console.log("not allow in person")
+        }
+        if(pers>user){
+            console.log("allow in person");
+        }
+        else{
+            console.log("not allow in person")
+        }
+
+
+        //logical and or not 
+        let x=10
+        console.log("and");
+        if(x%2==0 && x+2==12){
+            console.log("true the && And ");
+        }
+        else{
+            console.log("false the && And");
+        }
+        if(x%2==0 && x+2==11){
+            console.log("true the && And ");
+        }
+        else{
+            console.log("false the && And");
+        }
+       
+       
+        //OR
+        console.log("or")
+        if(x%2==0 || x%2==1){
+            console.log("true the || or");
+        }
+        else{
+            console.log("false the || or");
+        }
+        if(x%2==1|| x%2==1){
+            console.log("true the || or");
+        }
+        else{
+            console.log("false the || or");
+        }
+       
+       
+        //not
+        console.log("not");
+        if(x/2 !==5 ){
+            console.log("true the ! not");
+        }
+        else{
+            console.log("false the ! not");
+        }
+        if(x/2 !==10 ){
+            console.log("true the ! not");
+        }
+        else{
+            console.log("false the ! not");
+        }
+    </script>
+    
+</body>
+</html>
