@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tack</title>
+</head>
+<body>
+    
+    <script>
+        
+        // condictor function
+        function number(car,price){
+            this.car=car,
+            this.price=price
+        }
+        const number1=new number("BMW","95 L");
+        const number2=new number("hond","55 L");
+        console.log(number1.car+"="+number1.price);
+        console.log(number2.car+"="+number2.price);
+
+        //timg function
+        function display(){
+            document.write("welcome the users"+"<br>")
+        }
+        setInterval(display,3000)
+
+
+    </script>
+    
+</body>
+</html>
