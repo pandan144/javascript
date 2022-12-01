@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+    <script>
+			//create teg in dom
+           
+		   //let h1 = document.createElement(prompt("enter the tag name"));
+            //h1.innerHTML = prompt("enter the title name");
+            //document.body.appendChild(h1);
+			
+			
+			// set in attribute in the element
+			/*let h1 = document.createElement(prompt("enter the h value"));
+			h1.innerHTML = prompt("enter title name");
+			style="style";
+			Attribute=(prompt("enter the property"));
+			value = prompt("enter the value");
+			h1.setAttribute(style,Attribute+":"+value);
+			document.body.appendChild(h1);
+			
+			//set in img attribute in dom
+			let im = document.createElement("img");
+			im.src = "mt.jpg";
+			style="style";
+			Attribute=(prompt("enter the property"));
+			value = prompt("enter the value");
+			im.setAttribute(style,Attribute+":"+value);
+			document.body.appendChild(im);*/
+			
+		let a = document.createElement(prompt("enter the div create"));
+			document.body.appendChild(a);
+		let h1 = document.createElement(prompt("enter the h value"));
+			h1.innerHTML = prompt("enter title name");
+			//style="style";
+			//Attribute=(prompt("enter the property"));
+			//value = prompt("enter the value");
+			//h1.setAttribute(style,Attribute+":"+value);
+			a.appendChild(h1)
+		let im = document.createElement("img");
+			im.src = "mt.jpg";
+			h1.appendChild(im)
+			style="style";
+			Attribute=(prompt("enter the property"));
+			value = (prompt("enter the value"));
+			a.setAttribute(style,Attribute+":"+value);
+			document.body.appendChild(a);
+			
+			
+			
+			
+			
+			
+			
+            
+    </script>
+    
+</body>
+</html>
