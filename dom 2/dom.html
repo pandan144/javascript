@@ -8,7 +8,24 @@
 </head>
 <body>
 
+		<h1>GET ELEMENT</h1>
+		
+		<input type="password">
+		<!-- <input type="textarea"> -->
+
     <script>
+				
+				
+			//var h1 = document.getElementsByTagName("h1");
+			//h1[0].setAttribute("style","background-color" + ":" + "blue")
+			
+			var inp = document.getElementsByTagName("input");
+			inp[0].type=prompt("new value")
+			
+			var h1 = document.getElementsByTagName("input");
+			h1[0].setAttribute("type","password")
+	
+			
 			//create teg in dom
            
 		   //let h1 = document.createElement(prompt("enter the tag name"));
@@ -34,7 +51,7 @@
 			im.setAttribute(style,Attribute+":"+value);
 			document.body.appendChild(im);*/
 			
-		let a = document.createElement(prompt("enter the div create"));
+		/*let a = document.createElement(prompt("enter the div create"));
 			document.body.appendChild(a);
 		let h1 = document.createElement(prompt("enter the h value"));
 			h1.innerHTML = prompt("enter title name");
@@ -51,6 +68,19 @@
 			value = (prompt("enter the value"));
 			a.setAttribute(style,Attribute+":"+value);
 			document.body.appendChild(a);
+			
+		let a2 = document.createElement(prompt("enter the div create"));
+			document.body.appendChild(a2);
+		let h = document.createElement(prompt("enter the div  value2"));
+			h.innerHTML = prompt("enter title name2");
+			a2.appendChild(h)
+		let i = document.createElement("img");
+			i.src = "mt.jpg";
+			h.appendChild(i)
+			a2.setAttribute(style,Attribute+":"+value);
+			document.body.appendChild(a2);*/
+			
+
 			
 			
 			
