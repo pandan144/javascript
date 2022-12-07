@@ -1,0 +1,55 @@
+<!DOCTYPE.html>
+<html lang="en">
+	<head>
+		<title>bill</title>
+	</head>
+	<body>
+		<div>
+			<label>Amout</label><br>
+				<input type="text" placeholder="" id="input" value="" ><br>
+			<label>Tips</label><br>
+				<input type="text" placeholder="" id="dib" value="" ><br>
+			<label>tips is</label><br>
+				<input type="text" placeholder="" id="tot" value=""disabled ><br>
+			<label>Total</label><br>
+				<input type="text" id="input3" value="" disabled>
+			<button id="btn">calculate</button>
+			<button id="btn2">delete</button>
+		</div>
+		<script>
+		let bu = document.getElementById("btn");
+			bu.addEventListener("click",()=>{
+			
+			let am =document.getElementById("input").value;
+			let ame
+			if(input="" && dib=""){
+				ame="Enter the number valide"
+				document.getElementById("input").value=ame;
+			}
+			else{
+				ame="no vlaid"
+			}
+			
+			let di =document.getElementById("dib").value;
+			let  valu;
+			if(input>0 && dib>0){
+				valu="Enter the number valide"
+				document.getElementById("dib").value=valu;
+				et pre=((di/100)*am);
+			document.getElementById("tot").value=pre;
+			}
+			else{
+				valu="not number"
+			}
+			
+			l
+			
+			let total = (parseInt(am)+parseInt(pre));
+			document.getElementById("input3").value=total;
+			})
+			
+			
+			
+		</script>
+	</body>
+</html>
